@@ -2,7 +2,7 @@
 //
 // 定位：把 4 个解析适配器（tree-sitter / SCIP / CodeGraph / LSP）沉淀为可独立
 // 对外发布的聚合资产。本包自包含（仅依赖标准库），不依赖 internal/*，因此可以
-// 直接拷贝为独立仓库 `github.com/idcu/codeschema-adapterx` 对外发布；第三方可按
+// 直接拷贝为独立仓库 `gitee.com/idcu/codeschema-adapterx` 对外发布；第三方可按
 // 本契约自行实现 ParserPlugin，与 CodeSchema 的解析流水线无缝对接。
 //
 // 当前仓库内的内部适配器（internal/parser/adapter/*）与本节约定的对应关系：

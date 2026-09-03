@@ -2,7 +2,7 @@
 
 CodeSchema 解析适配器对外发布契约层（A 级生态资产）。
 
-本仓是 `github.com/idcu/codeschema` 的 `contrib/adapterx` 独立发布抽取版。
+本仓是 `gitee.com/idcu/codeschema` 的 `contrib/adapterx` 独立发布抽取版。
 **自包含（仅依赖标准库），可独立编译 / 测试 / 发布**，不依赖 `internal/*`。
 
 ## 包
@@ -14,7 +14,7 @@ CodeSchema 解析适配器对外发布契约层（A 级生态资产）。
 ## 使用
 
 ```go
-import "github.com/idcu/codeschema-adapterx"
+import "gitee.com/idcu/codeschema-adapterx"
 
 // 取内置适配器聚合，或自行实现 ParserPlugin 注入
 plugins := adapterx.BuiltinAdapters()
